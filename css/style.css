@@ -1,0 +1,96 @@
+*{
+    outline: 1px solid orange;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    position: relative;
+    margin: 0px;
+}
+
+.navigation li {
+    display: flex;
+    width: 200px;
+    min-height: 50px;
+    margin-bottom: 5px;
+    justify-content: center;
+    flex: 2, 2, auto;
+    align-items: center;
+    margin-left: 10px;
+    border: 2px solid rgb(236, 233, 13);
+    border-radius: 10px;
+    background-color: rgb(93, 159, 235);
+    transition: box-shadow 0.3s linear;
+}
+
+.navigation li:hover {
+    /*background: linear-gradient(0deg, #3d102a, #060468);*/
+    /*background: repeating-linear-gradient(90deg, #061577, #061577 10px, #05125c 10px, #040e4b 20px);*/
+    /*background: repeating-radial-gradient(ellipse, #1909aa, #09035e 10px, #240557 10px, #120238 20px);*/
+    /* box-shadow: 0 0 0 4px white, 0 0 0 8px, #0f0114; */
+    box-shadow: 0 0 0 4px rgb(236, 233, 13), 0 0 0 4px #3A2F28;
+    
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    transition: color 0.2s linear;
+}
+
+.navigation a:hover {
+    color: rgb(236, 233, 13);
+}
+
+.picturebg {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 200px;
+    background-image: url("../img/pexels-markus-spiske-965345.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+/* Main */
+.main {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+}
+
+.mainblock {
+    flex: 3;
+
+}
+
+.aside1 {
+    flex: 1;
+}
+
+.aside2 {
+    position: relative;
+    flex: 1;
+}
+
+.menu__link::before {
+    content: "";
+    position: absolute;
+    text-decoration: none;
+    width: 0; 
+    height: 0;
+    left: 5px;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #0b101a;
+    border-bottom: 5px solid transparent;
+}
