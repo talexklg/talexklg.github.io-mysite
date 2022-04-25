@@ -1,67 +1,292 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="Content-Type" content="text/htmle">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="HTML, CSS, Python, Scratch, обучение, дополнительное, образование, бесплатно">
-        <meta name="description" content="Бесплатное (ПФДО) и платное дополнительное образование детей по IT направлениям: HTML&CSS, Python, Scratch">
-        <title>Дополнительное образование для детей - HTML&CSS, Python, Scratch</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header>
-            <nav class="picturebg">
-                <ul class="navigation">
-                    <li>
-                        <a href="index.html">Главная</a>
-                    </li>
-                    <li>
-                        <a href="www.sut39.ru">Станция юных техников</a>
-                    </li>
-                    <li>
-                        <a href="#">HTML&CSS</a>
-                    </li>
-                    <li>
-                        <a href="#">Python</a>
-                    </li>
-                    <li>
-                        <a href="#">Scratch</a>
-                    </li>
-                    <li>
-                        <a href="#">3D моделирование</a>
-                    </li>
-                    <li>
-                        <a href="#">Наши достижения</a>
-                    </li>
-                    <li>
-                        <a href="#">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="main">
-                <aside class="aside1">
-                    <div><h2>Новости</h2></div>
-                </aside>
-                <section class="mainblock">
-                    <h2>Основной контент</h2>
-                </section>
-                <aside class="aside2">
-                    <h2>Меню</h2>
-                        <ul>
-                            <li>><a href="" class="menu__link">Дистант</a></li>
-                            <li>><a href="" class="menu__link">События</a></li>
-                            <li>><a href="" class="menu__link">Конкурсы</a></li>
-                            <li>><a href="" class="menu__link">Инфотека</a></li>
-                            <li>><a href="" class="menu__link">Нормативные документы</a></li>
-                            <li>><a href="" class="menu__link">Безопасность в интернете></a></li>
-                        </ul>
-                </aside>
-            </div>
-        </main>
-        <footer></footer>
-    </body>
-</html>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/htmle" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="HTML, CSS, Python, Scratch, обучение, дополнительное, образование, бесплатно" />
+  <meta name="description"
+    content="Бесплатное (ПФДО) и платное дополнительное образование детей по IT направлениям: HTML&CSS, Python, Scratch" />
+  <title>
+    Дополнительное образование для детей - HTML&CSS, Python, Scratch
+  </title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navigation">
+      <div id="carousel">
+        <div id="drag-container">
+          <div id="spin-container">
+            <a href="#"><img src="img/ClassPhoto/1650521245401.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521308854.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521308874.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521308888.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521245348.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521245360.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521308854.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521245377.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/z3.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521245377.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521308874.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521308888.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521245348.jpg" alt="" /></a>
+            <a href="#"><img src="img/ClassPhoto/1650521245360.jpg" alt="" /></a>
+            <p>3D</p>
+          </div>
+          <div id="ground"></div>
+        </div>
+      </div>
+      <div class="menu">
+        <a href="https://sut39.ru/" class="custom-btn btn-12"><span>Жми!</span><span>Станция ЮТ</span></a>
+        <a href="#" class="custom-btn btn-12"><span>Давай!</span><span>HTML&CSS</span></a>
+        <a href="#" class="custom-btn btn-12"><span>Нажимай!</span><span>Python</span></a>
+        <a href="#" class="custom-btn btn-12"><span>Не бойся!</span><span>Scratch</span></a>
+        <a href="#" class="custom-btn btn-12"><span>Добро!</span><span>3D</span></a>
+        <a href="#" class="custom-btn btn-12"><span>Пожаловать!</span><span>Достижения</span></a>
+        <a href="#" class="custom-btn btn-12"><span>К нам!</span><span>Контакты</span></a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="date">
+    </div>
+    <div class="main">
+      <aside class="right-menu">
+        <div class="block-title">
+          КАЛЕНДАРЬ
+          <table id="calendar4">
+            <thead>
+              <tr>
+                <td>
+                <td colspan="4"><select>
+                    <option value="0">Январь</option>
+                    <option value="1">Февраль</option>
+                    <option value="2">Март</option>
+                    <option value="3">Апрель</option>
+                    <option value="4">Май</option>
+                    <option value="5">Июнь</option>
+                    <option value="6">Июль</option>
+                    <option value="7">Август</option>
+                    <option value="8">Сентябрь</option>
+                    <option value="9">Октябрь</option>
+                    <option value="10">Ноябрь</option>
+                    <option value="11">Декабрь</option>
+                  </select>
+                <td colspan="3"><input type="number" value="" min="0" max="9999" size="4">
+              <tr>
+                <td>
+                <td>Пн
+                <td>Вт
+                <td>Ср
+                <td>Чт
+                <td>Пт
+                <td>Сб
+                <td>Вс
+            <tbody>
+          </table>
+        </div>
+        <div class="block-title">
+          <!-- Informer www.calend.ru -->
+          ПРАЗДНИКИ<a class="calendar" href="https://www.calend.ru/holidays/russtate/" target="_blank"><img
+              src="https://www.calend.ru/img/export/informer_1.png" width="150" alt="Праздники России" border=0></a>
+          <!-- // Informer www.calend.ru -->
+        </div>
+      </aside>
+      <section class="moved">
+        <div class="sub-moved">
+          <div class="top-moved area">
+            <span>д</span>
+            <span>в</span>
+            <span>и</span>
+            <span>ж</span>
+            <span>у</span>
+            <span>х</span>
+            <span>а</span>
+            <span>!</span>
+          </div>
+          <div class="content">
+            <div class="text">
+              <span style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">
+                <h2>Олимпиада по Scratch завершена!</h2>
+                <span>21 апреля 2022</span> <br><br>
+                <strong>Дарья Пичугина, заботливый организатор
+                  олимпиады:</strong>&nbsp;<em>«Ну вот и подошла к концу олимпиада. Даже не верится, сколько работ нам
+                  прислали! Уникальных, весёлых, милых, со своей историей и видением сюжета! Невероятный восторг
+                  вызывали моменты, когда в качестве актёров озвучки в проектах выступали родители, друзья автора!
+                  Хочется отдельно поблагодарить жюри олимпиады за качественную и быструю проверку работ! Работа по
+                  организации олимпиады вызывала у меня только приятные впечатления и чувство восхищения оригинальностью
+                  ребят! Ура!»&nbsp;</em><br><br><strong>Как это было:&nbsp;</strong><br><br>Олимпиада по Scratch
+                проходила в очном и дистанционном формате 24 и 25 марта. К заданиям по созданию собственных мультфильмов
+                и игр присоединились самые юные участники и выпускники благотворительных проектов «Мир Scratch»,&nbsp;
+                «Мой первый код» и «Точки роста IQ» в возрасте от 6 до 14 лет из 29 регионов РФ.<br><br>За два дня
+                творческого соревнования школьники создали 280 работ: 98 мультфильмов и 182 игры. На разработку проекта
+                у каждого автора было не более 4-х часов. Участники могли выбирать задание по настроению: либо создать
+                мультфильм о путешествиях в волшебном лесу девочки-ведьмочки Сакелии, енотихи Авроры и лягушки Моники
+                (героев-победителей конкурса спрайтов Фонда), либо создать игру, чтобы помочь Авроре найти нужные краски
+                для пейзажа.&nbsp;<br><br>После оживлённой и старательной работы участников с не меньшим интересом и
+                вовлеченностью к процессу подключилось жюри. В течение двух недель 30 преподавателей оценивали проекты
+                участников – каждую работу смотрели минимум два эксперта. Если два члена жюри расходились во мнениях,
+                работу дополнительно проверяли эксперты Фонда. Максимально можно было получить 44 балла за мультфильм и
+                58 баллов за игру: работы оценивались по критериям и чек-листам.&nbsp;<br><br><strong>Слово
+                  жюри:</strong>
+              </span><span
+                style="background-color: transparent;font-size: 18px;font-family: Source Sans Pro;"><strong>&nbsp;</strong></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><br><br><em>«Вот
+                  уже четвёртый год являюсь членом жюри олимпиады. Получила возможность оценивать работы, которые были
+                  сделаны в режиме очного проведения олимпиады и в режиме дистанционного. Хотелось бы отметить, что
+                  каждый год есть работы, которые удивляют своим высоким уровнем. Такие работы дают толчок для развития
+                  и совершенствования своих умений работы в Скретче не только ребятам , но и педагогам. В этот раз мне,
+                  как члену жюри, больше понравились мультфильмы».</em><br><strong>Анисимова Елена, МОУ "СОШ № 26" город
+                  Вологда</strong><br><br><em>«Очень интересно было быть в жюри. Ведь открывая каждый проект для
+                  проверки, можно было разглядеть некоторые способности и таланты ребёнка! Кто-то больше оформитель,
+                  кто-то больше программист, а кто-то – прекрасный рассказчик. Все эти детали отчётливо демонстрирует
+                  конкурсная работа».</em><br><strong>Ямаева Айгуль, преподаватель МОБУ СОШ с Нурлино, респ.
+                  Башкортостан</strong><br><br><em>«Второй год принимаю участие в проверке олимпиадных работ в Scratch.
+                  В этом проекте первый год, и хочется отметить, что очень чёткие критерии, по ним мне было легко быть в
+                  роли проверяющего. Работы, конечно, радуют. И очень удивили дети, которые у меня занимаются, с каким
+                  упорством они стремились доделать работу. Некоторым сложновато было, но они очень старались, и это
+                  было очень заметно!»&nbsp;&nbsp;</em><br><strong>Маханькова Людмила, МБОУ ДО "Дворец творчества детей
+                  и молодежи" г. Кемерово</strong><br><br><strong>Результаты:&nbsp;</strong><br><br></span><span
+                style="color: rgb(0,0,0);background-color: transparent;font-size: 16px;font-family: Source Sans Pro;">Давайте
+                вместе поздравим участников, порадуемся их успехам и поблагодарим преподавателей, родителей и друзей
+                авторов за поддержку.</span> <span
+                style="color: rgb(0,0,0);background-color: transparent;font-size: 16px;font-family: Source Sans Pro;">А
+                чтобы было ещё веселее, мы приложили к списку с именами победителей ссылки на их мультфильмы и игры. Так
+                что смотрите, играйте и вдохновляйтесь!&nbsp;&nbsp;<br><br></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><strong>Список с
+                  результатами всех участников:&nbsp;</strong></span><a
+                href="https://vk.com/doc-151377259_633711531?hash=9lEYGivCJGFf1kmza2NlAkBECVij18VUb2ljqNz569D&amp;dl=CBwjU1JjX2mJrwspudKcNWdNPjMmh6QQtX56LHATmeg"
+                target="_self"><span
+                  style="color: rgb(41,105,176);font-family: Source Sans Pro;"><strong>ЗДЕСЬ</strong></span></a><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><br><br><strong>Авторы
+                  лучших проектов олимпиады по Scratch 2022, по мнению жюри:</strong><br><br></span><span
+                style="background-color: transparent;font-size: 18px;font-family: Source Sans Pro;"><strong>Номинация:
+                  Мультфильмы 6–10</strong></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><br><br>I место.
+                Автор: Ника П., преподаватель – Маханькова Людмила Николаевна:<br></span><a
+                href="https://scratch.mit.edu/projects/678102458/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678102458/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">II место. Автор:
+                Юрий Т., преподаватель – Варламов Вадим Сергеевич:<br></span><a
+                href="https://scratch.mit.edu/projects/678153485/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678153485/</ins></span></a><span
+                style="font-family: Source Sans Pro;"> <br></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">III место. Автор:
+                Виктория К., преподаватель – Анисимова Елена Сергеевна:<br></span><a
+                href="https://scratch.mit.edu/projects/678154859/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678154859/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br><br></span><span
+                style="background-color: transparent;font-size: 18px;font-family: Source Sans Pro;"><strong>Номинация:
+                  Мультфильмы 11–14</strong></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><br><br>I место.
+                Автор: Семен Л., преподаватель – Гликман Елена Владимировна:&nbsp;<br></span><a
+                href="https://scratch.mit.edu/projects/678155658/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678155658/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">II место. Автор:
+                Александра А., преподаватель – Левшенкова Елена Владимировна:&nbsp;<br></span><a
+                href="https://scratch.mit.edu/projects/678156202/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678156202/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">III место. Автор:
+                Петр Ж., преподаватель – Фантаев Дмитрий Александрович:&nbsp;<br></span><a
+                href="https://scratch.mit.edu/projects/678156875/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678156875/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br><br></span><span
+                style="background-color: transparent;font-size: 18px;font-family: Source Sans Pro;"><strong>Номинация:
+                  Игры 6–10</strong></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><br><br>I место.
+                Автор: Василий Л., преподаватель – Стрельцов Игорь Александрович:<br></span><a
+                href="https://scratch.mit.edu/projects/678157748/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678157748/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">II место. Автор:
+                Михаил М., преподаватель – Максименко Алексей Викторович:<br></span><a
+                href="https://scratch.mit.edu/projects/678158399/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678158399/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">III место. Автор:
+                Елизавета Х., преподаватель – Вострикова Наталия Евгеньевна:<br></span><a
+                href="https://scratch.mit.edu/projects/678159329/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678159329/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br><br></span><span
+                style="background-color: transparent;font-size: 18px;font-family: Source Sans Pro;"><strong>Номинация:
+                  Игры 11–14</strong></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><br><br>I место.
+                Автор: Владислав Н., преподаватель – Жукова Вероника Игоревна:<br></span><a
+                href="https://scratch.mit.edu/projects/678159885/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678159885/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">II место. Автор:
+                Степан А., преподаватель – Максименко Алексей Викторович:<br></span><a
+                href="https://scratch.mit.edu/projects/678160437/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678160437/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">III место. Автор:
+                Дмитрий М., преподаватель – Максименко Алексей Викторович:&nbsp; <br></span><a
+                href="https://scratch.mit.edu/projects/678160831/" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>https://scratch.mit.edu/projects/678160831/</ins></span></a><span
+                style="color: rgb(41,105,176);font-family: Source Sans Pro;"><ins> </ins></span><span
+                style="font-family: Source Sans Pro;"><br><br></span><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">Все участники
+                получат красочные грамоты (будут отправлены на почту, указанную при регистрации), а победители – ценные
+                призы.<br><br>Благодарим всех участников олимпиады!&nbsp;Вы – большие молодцы.&nbsp;«С каждым проектом,
+                с каждым кодом вы становитесь всё опытнее и опытнее» – передаёт Ксения Севастьянова, автор идеи
+                олимпиады, менеджер проекта «Мир Scratch».&nbsp;Мы счастливы видеть, как вы растёте вместе с нами. До
+                новых встреч и новых побед!!!<br><br>Благотворительный проект «Мир Scratch» реализуется БФ развития
+                образования «Айкью Опшн» при поддержке Фонда президентских грантов. За помощь в проведении олимпиады
+                благодарим</span><span
+                style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>
+                </ins></span><a href="https://vk.com/cpaleadmagnet" target="_self"><span
+                  style="color: rgb(41,105,176);background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;"><ins>Агентство
+                    интернет-маркетинга Lead-magnet</ins></span></a><span
+                style="background-color: transparent;font-size: 11ptpx;font-family: Source Sans Pro;">.</span><br><br>
+            </div>
+          </div>
+        </div>
+      </section>
+      <aside class="left-menu">
+        <div class="left-menu-list">
+          <a href="#" class="left-menu-anchor">
+            Новости образования
+          </a>
+          <a href="#" class="left-menu-anchor">
+            Нормативные документы
+          </a>
+          <a href="#" class="left-menu-anchor">
+            Документы
+          </a>
+          <a href="#" class="left-menu-anchor">
+            Дистанционное обучение
+          </a><a href="#" class="left-menu-anchor">
+            Полезные ссылки
+          </a>
+        </div>
+      </aside>
+    </div>
+  </main>
+  <footer>
+    <div class="footer"></div>
+  </footer>
+  <!-- подключение карусели -->
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
